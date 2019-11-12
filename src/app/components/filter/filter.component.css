@@ -1,0 +1,7 @@
+.formFilter {
+  display: flex;
+  width: 100%;
+}
+.filterInput {
+  flex: 1;
+}

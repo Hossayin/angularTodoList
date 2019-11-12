@@ -1,0 +1,10 @@
+<form (ngSubmit)="onSubmit()" class="formFilter">
+  <input
+    class="filterInput"
+    type="text"
+    name="title"
+    [(ngModel)]="title"
+    placeholder="Search Through your list here!"
+    (ngModelChange)="onChange($event)"
+  />
+</form>
